@@ -1,3 +1,4 @@
+<?php include 'auth.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -7,7 +8,10 @@
         <title>Nathan Hedemark</title>
     </head>
     <body>
-        <header><a href="index.html">Nathan Hedemark</a></header>
+        <header>
+            <a href="index.php" class="logo-link">Nathan Hedemark</a>
+            <a href="logout.php" class="logout-link">Logout</a>
+        </header>
 
         <main>
             <div class="button-grid">
